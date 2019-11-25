@@ -1,0 +1,97 @@
+[
+  {
+    "name": "头部",
+    "type": "title"
+  },
+  {
+    "name": "头部设置",
+    "settings": [
+      {
+        "title": "网站 LOGO",
+        "tips": "推荐尺寸 120×40",
+        "options": [
+          {
+            "group": [
+              {
+                "type": "image",
+                "data": "logo"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "首页",
+    "type": "title"
+  },
+  {
+    "name": "大图",
+    "settings": [
+      {
+        "title": "显示设置",
+        "options": [
+          {
+            "group": [
+              {
+                "type": "checkbox",
+                "text": "是否显示",
+                "label": "显示",
+                "data": "banners_show"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "大图",
+        "tips": "推荐图片尺寸 1800×782",
+        "options": [
+          {
+            "group": [
+              {
+                "type": "image",
+                "data": "banner_1"
+              },
+              {
+                "type": "checkbox",
+                "text": "是否显示",
+                "label": "显示",
+                "data": "banner_1_show"
+              },
+              {
+                "type": "link",
+                "text": "图片链接",
+                "data": "banner_1_link,banner_1_link_type"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "底部",
+    "type": "title"
+  },
+  {
+    "name": "底部设置",
+    "settings": [
+      {
+        "title": "相关信息",
+        "options": [
+          {
+            "group": [
+              {
+                "type": "textarea",
+                "text": "版权信息",
+                "data": "footer_copyright"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
